@@ -1,5 +1,5 @@
 import { useEffect, useReducer } from "react";
-import { todoReducer } from "..";
+import { todoReducer } from "./TodoReducer";
 
 const init = () => {
     /* la primera vez va ser nulo/vacío, es por ello que se le agrega el || [] */
